@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d8175e34351043f046214e36c1d231f",
+    "revision": "ee37a8d0069ab05395e93db2da6524c7",
     "url": "/TheCodeClass/index.html"
   },
   {
-    "revision": "bc53790d6937ca03c727",
+    "revision": "7fb957583a84a10ea610",
     "url": "/TheCodeClass/static/css/main.3af7b6b8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TheCodeClass/static/js/2.469af9c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc53790d6937ca03c727",
-    "url": "/TheCodeClass/static/js/main.c2f0588a.chunk.js"
+    "revision": "7fb957583a84a10ea610",
+    "url": "/TheCodeClass/static/js/main.a6271aac.chunk.js"
   },
   {
     "revision": "a0dbbab4bd6023601168",
