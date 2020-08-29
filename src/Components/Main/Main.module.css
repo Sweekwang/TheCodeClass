@@ -1,0 +1,68 @@
+.mainfull{
+    margin-top: 80px;
+    width: 80%;
+    margin-left: 20%;
+    min-height: 800px;
+    background-color: white;
+    position: relative;
+}
+
+.mainContent{
+    display: block;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+.content{
+    box-sizing: border-box;
+    width: inherit;
+    position: absolute;
+}
+
+.infoContent{
+    box-sizing: border-box;
+    height: inherit;
+    overflow: auto;
+    width: 100%;
+    padding: 20px 80px 0px 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .sideDiv{
+        width: 0%;
+    }
+
+    .mainfull{
+        width: 78%;
+        margin-left: 22%;
+    }
+
+    .mainContent{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .mainfull{
+        width: 75%;
+        margin-left: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .mainfull{
+        width: 73%;
+        margin-left: 27%;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+    .mainfull{
+        width: 100%;
+        margin-left: 0%;
+    }
+}

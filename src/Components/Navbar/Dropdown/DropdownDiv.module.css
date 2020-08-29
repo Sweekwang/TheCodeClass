@@ -1,0 +1,21 @@
+.dropdownDiv{
+    float: left;
+    overflow: hidden;
+    padding: 10px 20px;
+    width: 30%;
+}
+
+.dropdownDiv h3{
+    color: #555555;
+}
+
+.dropdownDiv a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    color: #111111;
+}
+
+.dropdownDiv a:hover{
+    color: black;
+}

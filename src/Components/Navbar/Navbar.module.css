@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+.logo{
+    margin: 2px 10px 2px 50px;
+}
+
+.manu{
+    margin: auto 0 auto 20px;
+    display: none;
+}
+
+.manu:hover{
+    cursor: pointer;
+}
+
+.navMain{
+    background-color: white;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 888;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+}
+
+.navbarRight{
+    position: absolute;
+    right: 0px;
+}
+
+
+.navbar a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar img{
+    width: 10px;
+    margin-left: 15px;
+}
+
+.navbar button{
+    background: none;
+	color: inherit;
+	border: none;
+    outline: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+
+.navbarLink{
+    padding: 16px 16px;
+    font-size: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbarRight{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .manu{
+        margin: auto 0 auto 20px;
+        display: inline;
+    }
+
+    .navbarLink{
+        display: none;
+    }
+
+}
+
+
+
+
+
