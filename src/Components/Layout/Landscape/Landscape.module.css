@@ -4,3 +4,9 @@
     margin: auto;
     background-color: #D3CCE3;
 }
+
+@media only screen and (max-width: 1250px) {
+    .Landscape{
+        width: 100%;
+    }
+}

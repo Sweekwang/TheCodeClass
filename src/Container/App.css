@@ -1,0 +1,116 @@
+/* Universal CSS 
+    1) Table
+        thSpacing1 
+        thSpacing2
+    2) Step font
+        Usage: <b className = "step">Step 2:</b>
+}
+*/ 
+
+
+/* ============ Table ================== */
+table{
+    border-collapse: collapse;
+}
+
+table{
+    margin: 25px 0;
+}
+thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ececec;
+}
+
+.column1 {
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.column2 {   
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.column1 {
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+tr th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+tbody th{
+    font-weight: 400;
+}
+
+th{
+    text-align: left;
+}
+
+.column2 {   
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+/* ==================================== */
+/* =============== Font ============== */
+.step{
+    font-size: 20px;
+}
+
+/* ===========================================*/
+/* =============== Image Sizing ============== */
+.landscapeImage{
+    height: 100px;
+}
+
+.nearSquareImage{
+    height: 300px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 930px) {
+    .landscapeImage{
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .landscapeImage{
+        height: 130px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .landscapeImage{
+        height: 100px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 540px) {
+    .landscapeImage{
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .landscapeImage{
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    .landscapeImage{
+        width: 260px;
+    }
+}

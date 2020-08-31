@@ -7,6 +7,7 @@ import Dropdown from "./Dropdown/Dropdown";
 import Backdrop from "../UI/Backdrop/Backdrop";
 import Menu from "../UI/Menu/Menu";
 import Sidebar from "../Sidebar/Sidebar";
+import BackdropDark from "../UI/BackdropDark/BackdropDark";
 
 // Data
 import navTitles from "../../Data/NavTitle";
@@ -116,17 +117,20 @@ const Navbar = (props)=> {
         console.log(showMenu)
     }
 
+    const toNavigaText = 'Navigation';
+    const toExitText = 'Exit';
+    const [backText, backState] = useState(toNavigaText);
+    const [imageName, imageState] = useState(arrow);
+
+
     window.addEventListener("resize", function() {
         const widthSize = document.documentElement.clientWidth;;
 
         if(widthSize >= 950){
             showMenuState(false);
-        } 
+            backState(toNavigaText);
+        }
     });
-    const toNavigaText = 'Navigation';
-    const toExitText = 'Exit';
-    const [backText, backState] = useState(toNavigaText);
-    const [imageName, imageState] = useState(arrow);
 
     const clickMenu = () => {
         if (backText === toNavigaText){
@@ -137,6 +141,10 @@ const Navbar = (props)=> {
             backState(toNavigaText);
             imageState(arrow);
         }
+    }
+
+    const closedMenu = () => {
+        showMenuState(false)
     }
 
     return(
@@ -175,6 +183,10 @@ const Navbar = (props)=> {
                 imageName = {imageName}
                 backText = {backText}
                 />
+            <BackdropDark
+                showMenu = {showMenu}
+                clicked = {closedMenu}
+            />
         </nav>
     )
 };

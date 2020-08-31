@@ -23,10 +23,10 @@ const Dropdown = (props)=>{
             <div className = {classes.contentDiv}>
                 {topics}
                 <div className = {classes.closeButtonDiv}>
-                    <a 
+                    <button 
                         className = {classes.closeButton}
                         onClick = {props.closeButton}
-                        >X</a>
+                        >X</button>
                 </div>
             </div>
         </div>

@@ -4,18 +4,12 @@ const navTitle = [
         subItems : [
             { name: "iOS Development",
               subitems: [
-                  {name: "Swift guide",
-                  url: "/references/swift/sitemap"},
                   {name: "iOS Programming (UIKit)",
-                  url: "/references/uikit/sitemap"}
+                  url: "/references/ios/uikit/stepper-creationde"}
               ]},
 
               { name: "Android Development",
               subitems: [
-                  {name: "Java guide",
-                  url: "/references/java/sitemap"},
-                  {name: "Kotlin guide",
-                  url: "/references/kotlin/sitemap"},
                   {name: "Android Development",
                   url: "/references/android/sitemap"}
               ]},

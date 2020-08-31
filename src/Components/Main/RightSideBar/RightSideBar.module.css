@@ -61,6 +61,14 @@
     margin: 15px 10px;
 }
 
+
+@media only screen and (min-width: 2060px) {
+    .sideDiv{
+        width: 15%;
+    }
+}
+
+
 @media only screen and (max-width: 1250px) {
     .sideDiv{
         width: 0%;

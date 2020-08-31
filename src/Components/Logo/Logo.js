@@ -15,9 +15,9 @@ const VerticalLine = styled.div`
 const logo = () => {
     return(
         <Fragment>
-            <a href = "http://thecodeclass.com/" className = {classes.logoTextMain}>Evan Wes </a>
+            <a href = "/about" className = {classes.logoTextMain}>Evan Wes </a>
             <VerticalLine/>
-            <a href = "http://thecodeclass.com/" className = {classes.logoTextSub}>The Code Class</a>
+            <a href = "/" className = {classes.logoTextSub}>The Code Class</a>
         </Fragment>
     )
 }

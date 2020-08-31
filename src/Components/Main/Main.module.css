@@ -7,12 +7,6 @@
     position: relative;
 }
 
-.mainContent{
-    display: block;
-    margin-bottom: 0;
-    width: 80%;
-}
-
 .content{
     box-sizing: border-box;
     width: inherit;
@@ -27,6 +21,30 @@
     padding: 20px 80px 0px 20px;
 }
 
+@media only screen and (min-width: 2440px){
+    .mainfull{
+        width: 89%;
+        margin-left: 11%;
+    }
+
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2439px){
+    .mainfull{
+        width: 87%;
+        margin-left: 13%;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1999px){
+    .mainfull{
+        width: 84%;
+        margin-left: 16%;
+    }
+
+}
+
 @media only screen and (max-width: 1250px) {
     .sideDiv{
         width: 0%;
@@ -37,12 +55,13 @@
         margin-left: 22%;
     }
 
-    .mainContent{
-        width: 100%;
+    .infoContent{
+        padding: 20px 10px;
     }
 
 
 }
+
 
 @media only screen and (max-width: 1150px) {
     .mainfull{

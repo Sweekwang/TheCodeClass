@@ -6,7 +6,7 @@
 .headerText{
     float: left;
     box-sizing: border-box;
-    width: 55%;
+    width: 100%;
     padding-bottom: 10px;
 
 }
@@ -23,7 +23,7 @@
     min-height: 200px;
 }
 
-.headerVideo a{
+.downlod{
     box-sizing: border-box;
     display: block;
     text-align: center;
@@ -36,9 +36,8 @@
     text-decoration: none;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    min-height: 32px;
 }
-.headerVideo a:hover{
+.downlod:hover{
     background-color: rgb(192, 239, 255);
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5);
 }
@@ -60,60 +59,7 @@
     color: #525252;
 }
 
-@media only screen and (min-width: 2560px){
-    .headerVideo{
-        width: 25%;
-    }
 
-    .headerText{
-        width: 75%;
-    }
-
-}
-
-@media only screen and (min-width: 2000px) and (max-width: 2559px){
-    .headerVideo{
-        width: 30%;
-    }
-
-    .headerText{
-        width: 70%;
-    }
-
-}
-
-@media only screen and (min-width: 1600px) and (max-width: 1599px){
-    .headerVideo{
-        width: 36%;
-    }
-
-    .headerText{
-        width: 64%;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .headerText{
-        float: none;
-        width: 100%;
-        padding-bottom: 10px;
-    
-    }
-    .headerVideo{
-        float: none;
-        width: 380px;
-        padding: 0;
-    }
-    
-    .headerVideo a{
-        margin-left: 0;
-    }
-
-    .headerVideo a{
-        width: 80%;
-        margin: 10px auto
-    } 
-}
 
 @media only screen and (max-width: 425px) {
     .longText{
@@ -122,9 +68,6 @@
     
     .keyText{
         font-size: 30px;
-    }
-    .headerVideo{
-        width: 320px;
     }
 }
 
@@ -135,14 +78,5 @@
     
     .keyText{
         font-size: 25px;
-    }
-    .headerVideo{
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 340px) {
-    .headerVideo{
-        width: 250px;
     }
 }

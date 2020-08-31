@@ -11,7 +11,6 @@ const backdrop = (props) => {
             onMouseOver = {props.mouserOver}
             style = {{display: props.show ? "block" : "none"}}
             >
-
         </div>
     )
 };

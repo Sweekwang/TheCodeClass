@@ -8,51 +8,23 @@ const sideBarTitle = [
                     { 
                         subTitle: 'What language to learn first?',
                         url: "www.thecodeclass.com" 
-                    }, 
-                    { 
-                        subTitle: 'How can TheCodeClass help you?',
-                        url: "www.thecodeclass.com" 
-                    }, 
+                    }
                 ]
             },
             {
                 topicTitle: 'References',
                 subTopicItem: [
                     { 
-                        subTitle: 'Swift Language',
-                        url: "www.thecodeclass.com" 
-                    }, 
-                    { 
-                        subTitle: 'iOS Framework',
-                        url: "www.thecodecslass.com" 
-                    }, 
-                    { 
-                        subTitle: 'Java Language',
-                        url: "www.thecodecslass.com" 
-                    },
-                    { 
-                        subTitle: 'Kolin Language',
-                        url: "www.thecodecslass.com" 
-                    },
-                    { 
-                        subTitle: 'Android Framework',
-                        url: "www.thecodecslass.com" 
-                    },
-                    { 
-                        subTitle: 'Python Language',
-                        url: "www.thecodecslass.com" 
-                    },
-                    { 
-                        subTitle: 'Pandas',
-                        url: "www.thecodecslass.com" 
-                    },
+                        subTitle: 'iOS Development (UIKit)',
+                        url: "/references/ios/uikit/stepper-creation" 
+                    }
                 ]
             }, 
             {
                 topicTitle: 'Tutorial',
                 subTopicItem: [
                     { 
-                        subTitle: 'iOS Development (UIKit)',
+                        subTitle: 'iOS Development',
                         url: "www.thecodeclass.com" 
                     }, 
                     { 
@@ -97,16 +69,30 @@ const sideBarTitle = [
                 ]
             },
             {
-                topicTitle: 'UiKit',
+                topicTitle: 'Interface ( UIKit )',
                 subTopicItem: [
                     { 
                         subTitle: 'Steppers - Creating a Steppers',
                         url: "/references/ios/uikit/stepper-creation" 
                     }, 
                     { 
-                        subTitle: 'Steppers - stepperChanged',
-                        url: "www.thecodeclass.com" 
+                        subTitle: 'Steppers - Steppers\' attributes',
+                        url: "/references/ios/uikit/stepper-creation#attributes" 
                     }, 
+                    { 
+                        subTitle: 'Steppers - Steppers\' changing attributes with code',
+                        url: "/references/ios/uikit/stepper-creation#attributescode" 
+                    }, 
+                    { 
+                        subTitle: 'Steppers - Steppers\' IBAction',
+                        url: "/references/ios/uikit/stepper-creation#IBAction" 
+                    }, 
+                ]
+            },
+            {
+                topicTitle: 'Interactions ( UIKit )',
+                subTopicItem: [
+                   
                 ]
             }
         ]
