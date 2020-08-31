@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/TheCodeClass/static/css/main.3af7b6b8.chunk.css",
-    "main.js": "/TheCodeClass/static/js/main.0b006622.chunk.js",
-    "main.js.map": "/TheCodeClass/static/js/main.0b006622.chunk.js.map",
-    "runtime-main.js": "/TheCodeClass/static/js/runtime-main.3ec180de.js",
-    "runtime-main.js.map": "/TheCodeClass/static/js/runtime-main.3ec180de.js.map",
-    "static/js/2.50b83974.chunk.js": "/TheCodeClass/static/js/2.50b83974.chunk.js",
-    "static/js/2.50b83974.chunk.js.map": "/TheCodeClass/static/js/2.50b83974.chunk.js.map",
-    "index.html": "/TheCodeClass/index.html",
-    "precache-manifest.29d075070313ed7688bcccde3ee14053.js": "/TheCodeClass/precache-manifest.29d075070313ed7688bcccde3ee14053.js",
-    "service-worker.js": "/TheCodeClass/service-worker.js",
-    "static/css/main.3af7b6b8.chunk.css.map": "/TheCodeClass/static/css/main.3af7b6b8.chunk.css.map",
-    "static/js/2.50b83974.chunk.js.LICENSE.txt": "/TheCodeClass/static/js/2.50b83974.chunk.js.LICENSE.txt",
-    "static/media/back_arrow.webp": "/TheCodeClass/static/media/back_arrow.c614785c.webp",
-    "static/media/exit.png": "/TheCodeClass/static/media/exit.ec8b66d3.png"
+    "main.css": "/static/css/main.b918b039.chunk.css",
+    "main.js": "/static/js/main.28b9e895.chunk.js",
+    "main.js.map": "/static/js/main.28b9e895.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2aa798e3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2aa798e3.js.map",
+    "static/js/2.b4b46d9c.chunk.js": "/static/js/2.b4b46d9c.chunk.js",
+    "static/js/2.b4b46d9c.chunk.js.map": "/static/js/2.b4b46d9c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c93914845a6f9f1731c01c0dbbf084ca.js": "/precache-manifest.c93914845a6f9f1731c01c0dbbf084ca.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b918b039.chunk.css.map": "/static/css/main.b918b039.chunk.css.map",
+    "static/js/2.b4b46d9c.chunk.js.LICENSE.txt": "/static/js/2.b4b46d9c.chunk.js.LICENSE.txt",
+    "static/media/back_arrow.webp": "/static/media/back_arrow.c614785c.webp",
+    "static/media/exit.png": "/static/media/exit.ec8b66d3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ec180de.js",
-    "static/js/2.50b83974.chunk.js",
-    "static/css/main.3af7b6b8.chunk.css",
-    "static/js/main.0b006622.chunk.js"
+    "static/js/runtime-main.2aa798e3.js",
+    "static/js/2.b4b46d9c.chunk.js",
+    "static/css/main.b918b039.chunk.css",
+    "static/js/main.28b9e895.chunk.js"
   ]
 }
