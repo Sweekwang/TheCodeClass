@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.example.com/</loc>
+
+      <lastmod>2020-09-13</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://thecodeclass.com/#/references/ios/uikit/stepper-creation#start</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://thecodeclass.com/#/references/ios/uikit/activity-creation#start</loc>
+
+      <lastmod>2020-09-13</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://thecodeclass.com/#/references/ios/uikit/activity-creation#attributescode/loc>
+
+      <lastmod>2020-09-13</lastmod>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://thecodeclass.com/#/references/ios/uikit/imageview#start</loc>
+
+      <lastmod>2020-09-13</lastmod>
+
+   </url>
+
+</urlset>
